@@ -1,6 +1,0 @@
-Run the best StyleGAN model:
-
-python train.py --outdir=./training-runs --cfg=stylegan2 --data=./datasets/em256.zip --gpus=1 --batch=12 --map-depth=4 --cmax 1024 --gamma=8.2 --kimg=800 --metrics=fid50k,is50k
-
-
-The code is from: https://github.com/NVlabs/stylegan3
